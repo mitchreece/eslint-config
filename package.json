@@ -7,6 +7,7 @@
   "author": "mitchreece <mitchellreece18@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
+    "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0"
   }
 }
