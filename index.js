@@ -3,7 +3,7 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 6,
     },
-    extends: 'airbnb-base',
+    extends: 'eslint:recommended',
     rules: {
        indent: ['error', 'tab'],
        'no-tabs': 0,
