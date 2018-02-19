@@ -7,9 +7,10 @@ module.exports = {
     rules: {
        indent: ['error', 'tab'],
        'no-tabs': 0,
-       "padded-blocks": [
+       'padded-blocks': [
            'error',
            { classes: 'always' }
-       ]
+       ],
+       'comma-dangle': ['error', 'always-multiline'],
     }
 }
