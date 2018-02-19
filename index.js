@@ -12,5 +12,6 @@ module.exports = {
            { classes: 'always' }
        ],
        'comma-dangle': ['error', 'always-multiline'],
+       'semi': ['error', 'never']
     }
 }
