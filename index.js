@@ -12,6 +12,12 @@ module.exports = {
            { classes: 'always' }
        ],
        'comma-dangle': ['error', 'always-multiline'],
-       'semi': ['error', 'never']
+       'semi': ['error', 'never'],
+       'eol-last': ['error', 'always'],
+       'no-multiple-empty-lines': ['error', {
+            max: 2,
+            maxEOF: 0, // = 1 (Some editors are off by 1)
+            maxBOF: 0
+       }]
     }
 }
