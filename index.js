@@ -22,6 +22,7 @@ module.exports = {
             max: 2,
             maxEOF: 0, // = 1 (Some editors are off by 1)
             maxBOF: 0
-       }]
+       }],
+       'quotes': [2, 'single'],
     }
 }
